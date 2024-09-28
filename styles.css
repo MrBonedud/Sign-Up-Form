@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.4;
+  color: #333;
+  background-color: #fff;
+  padding: 1em;
+  margin: 0;
+  width: 500px;
+}
+
+ul {
+  list-style: none;
+}
+
+
+  input, select, button {
+    font-size: 1em;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+    width: 100%; 
+  }
+  
+  button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
+  form ul {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 1em;
+    align-items: center;
+  }
+  
+  form ul li {
+    display: contents; 
+  }
+  
+  label {
+    text-align: right;
+    padding-right: 1em;
+  }
+  
+  input, select {
+    grid-column: 2; 
+  }
+  
