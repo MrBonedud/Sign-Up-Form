@@ -2,12 +2,16 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <!-- Link to external CSS stylesheet -->
   <link href="Assets/Stylesheet/styles.css" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sign Up Form</title>
 </head>
 <body>
+  <!-- Main container for layout -->
   <div class="container">
+    
+    <!-- Left side section with image and overlay text -->
     <section class="intro">
       <div class="image">
         <div class="image-overlay">A Sign Up Form</div>
@@ -16,13 +20,21 @@
       </div>
     </section>
 
+    <!-- Right side section with the form -->
     <section class="form-section">
+      <!-- Heading of the form section -->
       <div class="header-row">
         <h1>This is just a sketch, and not a real page</h1>
       </div>
+      
+      <!-- Form container -->
       <div class="form-wrapper">
         <p class="sub-header">Get Started</p>
+
+        <!-- Sign up form -->
         <form action="" id="form">
+          
+          <!-- Input row for First Name and Last Name -->
           <div class="form-row">
             <div class="form-group">
               <label for="First-Name">First Name:</label>
@@ -33,18 +45,24 @@
               <input type="text" id="Last-Name" placeholder="Last Name" name="lastname" required>
             </div>
           </div>
+          
+          <!-- Input row for email -->
           <div class="form-row full-width">
             <div class="form-group">
               <label for="email">Email:</label>
               <input type="email" id="email" placeholder="example@mail.com" name="email" required>
             </div>
           </div>
+          
+          <!-- Input row for phone number -->
           <div class="form-row">
             <div class="form-group">
               <label for="phone">Phone Number:</label>
               <input type="tel" id="phone" placeholder="Phone Number" name="phone" required>
             </div>
           </div>
+          
+          <!-- Input row for password and confirm password -->
           <div class="form-row">
             <div class="form-group">
               <label for="pass">Password:</label>
@@ -55,9 +73,13 @@
               <input type="password" id="passconfirm" placeholder="Confirm Password" name="passconfirm" required>
             </div>
           </div>
+          
+          <!-- Submit button -->
           <div class="submit-button">
             <button type="submit" form="form">Create Account</button>
           </div>
+          
+          <!-- Log in option for existing users -->
           <div class="log-in">
             <span>Already have an account?</span>
             <a href="https://www.theodinproject.com/" target="_blank">Log In</a>
